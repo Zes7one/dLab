@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package consulta;
 
-option go_package = "github.com/Zes7one/dLab/Pozo/consulta";
+option go_package = "github.com/Zes7one/dLab/Pozo/grpc/consulta";
 
 
 // Formato esperado desde clientes, Lider.go

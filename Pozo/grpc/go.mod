@@ -1,4 +1,4 @@
-module Desktop/UNI/-----TOMADOS-----/DISTRIBUIDOS/Tareas/Squid/lpozo
+module github.com/Zes7one/dLab
 
 go 1.17
 

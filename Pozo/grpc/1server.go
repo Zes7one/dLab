@@ -7,7 +7,7 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	pb "github.com/Zes7one/dLab/Pozo/consulta"
+	pb "github.com/Zes7one/dLab/Pozo/grpc/consulta"
 
 	// pb "google.golang.org/grpc/examples/helloworld/h"
 )
