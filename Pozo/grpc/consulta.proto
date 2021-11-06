@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package consulta;
+
+option go_package = "./";
+
+
+// Formato esperado desde clientes, Lider.go
+message Message {
+    string body = 1;
+}
+
+service ConsultaService{
+    rpc PeticionPozo (Message) returns (Message){};
+}
